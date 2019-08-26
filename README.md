@@ -21,7 +21,7 @@ conda install python=3.6 ipython pytorch=0.4 torchvision opencv=3.4.4 tensorboar
 Please cite [this work](http:) in your publications if it helps your research: <br />
 
 @article{Rawi19,<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	author = {Mohammed Al-Rawi and Dena Bazazian, and Ernest Valveny},<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	author = {Mohammed Al-Rawi and Dena Bazazian and Ernest Valveny},<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	title = {Can Generative Adversarial Networks Teach Themselves Text Segmentation?},<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	journal = {IEEE Proceedings of International Conference on Computer Vision Workshops},<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	year = {2019}<br />
