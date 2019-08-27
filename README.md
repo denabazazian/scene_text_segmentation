@@ -16,7 +16,29 @@ conda install python=3.6 ipython pytorch=0.4 torchvision opencv=3.4.4 tensorboar
     * scikit-image
     * tensorboardX
 
-# Citation #
+### Train ###
+The path for training dataset should be defined in ``` mypath.py ```. Then, for instance for ICDAR dataset in ```dataloaders/datasets``` the ```icdar.py``` refers to that. <br/>
+* For training ICDAR: <br/>
+```
+bash train_icdar.sh
+```
+
+### Test ###
+* For visualizing the heatmaps: <br/>
+```
+visual_hm.py
+```
+* For saving the binary text segmentations: <br/>
+```
+test_save_binary.py
+```
+* For computing the F1 accuracy: <br/>
+```
+F1_accuaracy_rwi.py
+```
+
+
+## Citation ##
 
 Please cite [this work](http:) in your publications if it helps your research: <br />
 
