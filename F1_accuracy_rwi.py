@@ -212,8 +212,9 @@ if __name__=='__main__':
         #pdb.set_trace()
         # plt.imshow(res)
         # plt.show()
-        ret,pred_bin = cv2.threshold(pred.squeeze()[1,:,:],0.2,255,cv2.THRESH_BINARY)
-
+        
+        #ret,pred_bin = cv2.threshold(pred.squeeze()[1,:,:],0.2,255,cv2.THRESH_BINARY)
+        pred_bin = np.argmax(pred.squeeze(), axis=0)
         #pdb.set_trace()
         f1, acc, prc, rcl = F1_loss(pred_bin>5,gt>5)
         print("F1 is {}, accuracy is {}, precision is {}, recall is {}".format(f1,acc,prc,rcl))
