@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train.py --backbone resnet --lr 0.001 --weight-decay 0.00001 --workers 1 --epochs 100 --batch-size 24 --gpu-ids 0 --resume /path/to/icdar_models/run/icdar/deeplab-resnet/experiment_3/checkpoint.pth.tar --checkname deeplab-resnet --eval-interval 1 --dataset icdar
