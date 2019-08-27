@@ -1,5 +1,5 @@
 # scene_text_segmentation
-Pytorch implementation for pixel-wise scene text segmentation based on DeepLabV3+ 
+Pytorch implementation for pixel-wise scene text segmentation based on [DeepLabV3+](https://arxiv.org/pdf/1802.02611.pdf) and it is Pytorch [implementation](https://github.com/jfzhang95/pytorch-deeplab-xception). 
 
 ### Installation ###
 
