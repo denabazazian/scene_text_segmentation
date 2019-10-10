@@ -1,10 +1,9 @@
 # scene_text_segmentation
 Pixel-wise scene text segmentation based on DeepLabV3+ [paper](https://arxiv.org/pdf/1802.02611.pdf) and its Pytorch [implementation](https://github.com/jfzhang95/pytorch-deeplab-xception). 
 
-## Results ##
-Qualitative results of English (first four columns) from ICDAR2013 dataset and Korean (fifth trough eighth columns) from KAIST
-dataset. <br/>
-Korean text has been segmented in zero-shot learning, the trained models have never seen the Korean text images.
+### Results ###
+Qualitative results of English (first four columns) from ICDAR2013 dataset and Korean (fifth to eighth columns) from KAIST
+dataset. Korean text has been segmented in zero-shot learning, the trained models have never seen the Korean text images.
 
 ![](fig/textSeg.png)
 
