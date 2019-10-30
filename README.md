@@ -1,5 +1,5 @@
 # scene_text_segmentation
-Pixel-wise scene text segmentation based on DeepLabV3+ [paper](https://arxiv.org/pdf/1802.02611.pdf) and its Pytorch [implementation](https://github.com/jfzhang95/pytorch-deeplab-xception). 
+Pixel-wise scene text segmentation [paper](http://openaccess.thecvf.com/content_ICCVW_2019/papers/AIM/Al-Rawi_Can_Generative_Adversarial_Networks_Teach_Themselves_Text_Segmentation_ICCVW_2019_paper.pdf ) based on DeepLabV3+ [paper](https://arxiv.org/pdf/1802.02611.pdf) and its Pytorch [implementation](https://github.com/jfzhang95/pytorch-deeplab-xception). 
 
 ### Results ###
 Qualitative results of English (first four columns) from ICDAR2013 dataset and Korean (fifth to eighth columns) from KAIST
@@ -46,7 +46,7 @@ F1_accuaracy_rwi.py
 
 ## Citation ##
 
-Please cite [this work](http:) in your publications if it helps your research: <br />
+Please cite [this work](http://openaccess.thecvf.com/content_ICCVW_2019/papers/AIM/Al-Rawi_Can_Generative_Adversarial_Networks_Teach_Themselves_Text_Segmentation_ICCVW_2019_paper.pdf ) in your publications if it helps your research: <br />
 
 @article{Rawi19,<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	author = {Mohammed Al-Rawi and Dena Bazazian and Ernest Valveny},<br />
